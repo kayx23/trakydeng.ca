@@ -16,7 +16,7 @@
 
     &-item {
       padding: 0;
-      margin: 4px;
+      // margin: 4px;
       display: flex;
       align-content: center;
       align-items: center;
@@ -24,9 +24,9 @@
       height: $button-height;
       width: $button-height;
       line-height: $button-height;
-      border-radius: 50%;
+      // border-radius: 50%;
       text-align: center;
-      border: 1px solid $color-gray-bg;
+      // border: 1px solid $color-gray-bg;
 
       &-link {
         border: 0;

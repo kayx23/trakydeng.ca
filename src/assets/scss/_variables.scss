@@ -4,13 +4,13 @@
 @use "sass:math";
 
 // Colors
-$color-base: #222;
-$color-primary: #5D93FF;
-$color-secondary: #F7A046;
+$color-base: rgb(75, 75, 75);
+$color-primary: #B91646;
+$color-secondary: #105652;
 
-$color-white: #FFF;
-$color-gray: lighten($color-base, 40%);
-$color-gray-border: lighten($color-base, 77%);
+$color-white: #dedcdc;
+$color-gray: lighten($color-base, 20%);
+$color-gray-border: lighten($color-base, 60%);
 $color-gray-bg: lighten($color-base, 79%);
 
 // Typographic
