@@ -10,13 +10,14 @@
     text-align: left;
 
     &-link {
-      color: $color-secondary;
+      color: $color-next-prev;
       font-size: 26px;
       font-weight: bold;
+      transition: 0.2s ease-in-out;
 
       &:hover,
       &:focus {
-        color: $color-primary;
+        color: $color-next-prev-hover;
       }
 
       &--disable {
@@ -33,13 +34,14 @@
     text-align: right;
 
     &-link {
-      color: $color-secondary;
+      color:  $color-next-prev;
       font-size: 26px;
       font-weight: bold;
+      transition: 0.2s ease-in-out;
 
       &:hover,
       &:focus {
-        color: $color-primary;
+        color: $color-next-prev-hover;
       }
 
       &--disable {

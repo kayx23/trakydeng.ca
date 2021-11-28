@@ -31,7 +31,7 @@
     &-description {
       font-size: $typographic-base-font-size;
       @include line-height(1);
-      @include margin-bottom(.75);
+      @include margin-bottom(.4);
     }
 
     &-meta {
@@ -46,35 +46,64 @@
         margin: 0 5px;
       }
 
-      &-category {
-        &-link {
-          font-size: $typographic-small-font-size;
-          color: $color-secondary;
-          font-weight: 600;
-          text-transform: uppercase;
+      // &-category {
+      //   &-link {
+      //     font-size: $typographic-small-font-size;
+      //     color: $color-secondary;
+      //     font-weight: 600;
+      //     text-transform: uppercase;
 
-          &:hover,
-          &:focus {
-            color: $color-primary;
-          }
+      //     &:hover,
+      //     &:focus {
+      //       color: $color-primary;
+      //     }
 
-        }
+      //   }
 
-      }
-
-    }
-
-    &-readmore {
-      font-size: $typographic-base-font-size;
-      color: $color-primary;
-
-      &:hover,
-      &:focus {
-        color: $color-primary;
-        border-bottom: 1px solid $color-primary;
-      }
+      // }
 
     }
+
+    &-tags>* {
+      font-style: italic;
+      margin-right: 10px;
+      border:1px solid $color-primary;
+      border-radius: 20px;
+      padding: 3px 6px;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        border:1px solid $color-secondary;
+      }
+    }
+
+    &-tag-container {
+      display: flex;
+      p {
+        font-weight: 600;
+        font-style: italic;
+        margin-top: 0;
+        margin-right: 12px;
+      }
+    }
+
+    // &-readmore {
+    //   margin-top: 15px;
+
+    //   &-link {
+    //     @include margin-top(.4);
+    //     font-size: $typographic-base-font-size;
+    //     color: $color-primary;
+  
+    //     &:hover,
+    //     &:focus {
+    //       color: $color-primary;
+    //       border-bottom: 1px solid $color-primary;
+    //     }
+  
+    //   }
+    // }
+
+
 
   }
 
