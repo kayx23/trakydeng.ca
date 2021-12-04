@@ -51,8 +51,10 @@ const createPages = async ({ graphql, actions }) => {
 
   _.each(edges, (edge) => {
     if (_.get(edge, 'node.frontmatter.template') === 'page') {
+      const slugToUse = edge.node.fields.slug === "/pages/" ? "/" : edge.node.fields.slug;
       createPage({
-        path: edge.node.fields.slug,
+        // path: edge.node.fields.slug,
+        path: slugToUse,
         component: path.resolve('./src/templates/page-template.js'),
         context: { slug: edge.node.fields.slug }
       });
@@ -62,6 +64,12 @@ const createPages = async ({ graphql, actions }) => {
         component: path.resolve('./src/templates/post-template.js'),
         context: { slug: edge.node.fields.slug }
       });
+    } else if (_.get(edge, 'node.frontmatter.template') === 'home') {
+      createPage({
+        path: '/',
+        component: path.resolve('./src/templates/page-template.js'),
+        context: { slug: edge.node.fields.slug }
+      })
     }
   });
 
