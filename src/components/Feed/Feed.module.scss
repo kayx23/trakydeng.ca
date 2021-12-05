@@ -65,6 +65,7 @@
     }
 
     &-tags>* {
+      font-size: 13px;
       font-style: italic;
       margin-right: 10px;
       border:1px solid $color-primary;
@@ -77,7 +78,7 @@
     }
 
     &-tag-container {
-      display: flex;
+      display: flex;  
       p {
         font-weight: 600;
         font-style: italic;
