@@ -31,7 +31,7 @@ module.exports = {
   author: {
     name: 'Traky Deng',
     photo: '/photo.jpg',
-    bio: 'Developer & Tech Lover',
+    bio: 'Web Dev & Tech Lover',
     contacts: {
       email: 'traky.deng@protonmail.com',
       github: 'Kayx23',

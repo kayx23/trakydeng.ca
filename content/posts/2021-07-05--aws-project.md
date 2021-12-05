@@ -12,10 +12,14 @@ tags:
   - "SES"
   - "DynamoDB"
   - "S3"
-  - "API Gateway"
+  - "Python"
 description: "AWS serverless backend replicating Mailchimp's email sign-up and distribution"
 ---
 
+<a href="https://github.com/Kayx23/v-MAS-Website/tree/master/.lambda">
+<img src="https://img.shields.io/static/v1?label=Demo&message=Lambda&color=Green&style=plat-square&logo=github">
+</a>
+<br>
 <br>
 
 This is a serverless backend system used by the school club I was in for building email list sign-up and distribution. 
