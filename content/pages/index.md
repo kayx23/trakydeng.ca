@@ -5,7 +5,7 @@ template: "home"
 
 Hi, my name is Traky (pronounced `Track-yee`). 
 
-I started my undergraduate degree in Math & Stats specializing in Actuarial Science. Over the last two years of my studies and through a few co-op terms, I experienced a strong shift in interests to **software development**, **security**, and **infrastructure** and finally decided to reorient my path. 
+I started my undergraduate degree in Math & Stats specializing in Actuarial Science. Over the last two years of my studies and through a few co-op terms, I experienced a unwavering shift in interests to **software development**, **security**, and **infrastructure** and finally decided to reorient my path. 
 
 My current experiences include full-stack web development, serverless backend, data analytics & visualization, machine learning, and automation. 
 
