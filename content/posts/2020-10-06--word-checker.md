@@ -9,7 +9,7 @@ tags:
   - "Python"
   - "tkinter"
   - "Data Structure"
-description: "A GUI utility checking if a word is valid. Available in English and French."
+description: "A GUI utility checking if a word is valid. Available in English and French"
 ---
 
 <a href="https://github.com/Kayx23/word-checker" target="_blank">
