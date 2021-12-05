@@ -17,7 +17,7 @@ tags:
 description: "AWS serverless backend replicating Mailchimp's email sign-up and distribution"
 ---
 
-<a href="https://github.com/Kayx23/v-MAS-Website/tree/master/.lambda">
+<a href="https://github.com/Kayx23/v-MAS-Website/tree/master/.lambda" target="_blank">
 <img src="https://img.shields.io/static/v1?label=Demo&message=Lambda&color=Green&style=plat-square&logo=github">
 </a>
 <br>

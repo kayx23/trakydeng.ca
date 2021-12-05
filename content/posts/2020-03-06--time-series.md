@@ -13,7 +13,7 @@ tags:
 description: "Time Series Modelling (Seasonal ARIMA) of Lake Erie Water Levels in R"
 ---
 
-<a href="https://github.com/Kayx23/TimeSeries-LakeErie/blob/master/Lake_Erie_80-20.md">
+<a href="https://github.com/Kayx23/TimeSeries-LakeErie/blob/master/Lake_Erie_80-20.md" target="_blank">
 <img src="https://img.shields.io/static/v1?label=Source&message=Available&color=Green&style=plat-square&logo=github">
 </a>
 <br>
