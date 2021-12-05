@@ -10,7 +10,6 @@ tags:
   - "Just for Fun"
   - "UNIX"
 description: "My terminal greets me with ASCII arts (cat, rabbit, coffee) and customized messages dynamically based on the hour of the day. You can set it up in 5 mins too."
-socialImage: "/media/42-line-bible.jpg"
 ---
 
 <br>

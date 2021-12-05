@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: 'Traky Deng',
-  subtitle: 'Developer & Tech Hobbyist',
+  subtitle: 'Developer & Tech Lover',
   copyright: '© 2021 All Rights Reserved',
   disqusShortname: '',
   postsPerPage: 4,
@@ -12,17 +12,21 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: '.About()',
+      label: '.AboutMe()',
       path: '/'
     },
+    // {
+    //   label: '.Blog()',
+    //   path: '/page/0'
+    // },
     {
-      label: '.Blog()',
-      path: '/page/0'
+      label: '.Projects()',
+      path: '/pages/projects'
     },
-    {
-      label: '.Tags()',
-      path: '/tags'
-    }
+    // {
+    //   label: '.Tags()',
+    //   path: '/tags'
+    // }
   ],
   author: {
     name: 'Traky Deng',

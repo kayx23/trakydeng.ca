@@ -168,3 +168,20 @@ figcaption {
   }
 
 }
+
+.school-location {
+  margin-top: 4px; 
+  margin-bottom:0;
+  font-style: 14px;
+  font-weight: 550;
+  color: rgb(152, 152, 152);
+}
+
+.tech-stack-icons {
+  display: flex;
+  &>*{
+    width: 34px;
+    height: 30px;
+    margin-right: 15px;
+  }
+}
