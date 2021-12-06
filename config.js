@@ -7,7 +7,7 @@ module.exports = {
   subtitle: '',
   copyright: '© 2021 All Rights Reserved',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 5,
   // googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
@@ -16,7 +16,7 @@ module.exports = {
       path: '/'
     },
     {
-      label: '.Project()',
+      label: '.Projects()',
       path: '/page/0'
     },
     // {
