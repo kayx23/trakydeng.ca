@@ -1,5 +1,5 @@
 ---
-title: Email List Sign-up & Distribution<br>
+title: Serverless Email Subscription Backend<br>
 date: "2021-07-05T22:18:00"
 template: "post"
 draft: false
@@ -23,7 +23,9 @@ description: "AWS serverless backend replicating Mailchimp's email sign-up and d
 <br>
 <br>
 
-This is a serverless backend system used by the school club I was in for building email list sign-up and distribution. 
+This is a serverless backend system currently in use by a school club I was in for subscription sign-up and email distribution. 
+
+Inspired by Mailchimp, which offers similar functionalities at a price, I built the basic sign-up and email distribution functionalities using AWS Free Tier services. 
 
 * **Core Services Used:** API Gateway, Lambda, DynamoDB, [SES (prod)](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html), S3    
 * **Other Services Used:** IAM, SNS, CloudWatch
