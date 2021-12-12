@@ -2,7 +2,6 @@
 
 module.exports = {
   url: 'https://www.trakydeng.com',
-  siteSocialImage: '/site-social-image.jpg',
   pathPrefix: '/',
   title: 'Traky Deng',
   subtitle: '',
@@ -32,6 +31,7 @@ module.exports = {
   author: {
     name: 'Traky Deng',
     photo: '/photo.jpg',
+    // siteSocialImage: '/site-social-image.jpg',
     bio: 'Web Dev & Tech Lover',
     contacts: {
       email: 'traky.deng@protonmail.com',

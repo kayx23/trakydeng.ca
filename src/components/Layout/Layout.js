@@ -18,10 +18,11 @@ const Layout = ({
   description,
   socialImage = ''
 }: Props) => {
-  const { url, siteSocialImage } = useSiteMetadata();
+  // const { url, siteSocialImage } = useSiteMetadata();
   // socialImage is from posts
-  const metaImage = socialImage || siteSocialImage;
-  const metaImageUrl = url + metaImage;
+  // const metaImage = socialImage || siteSocialImage;
+  // const metaImageUrl = url + metaImage;
+  const metaImageUrl = 'https://user-images.githubusercontent.com/39619599/145702680-515d0afb-ac3b-4311-8056-b6606264fec3.jpg'
 
   return (
     <div className={styles.layout}>
