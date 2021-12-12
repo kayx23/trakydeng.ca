@@ -17,7 +17,7 @@ module.exports = {
     },
     {
       label: '.Projects()',
-      path: '/page/0'
+      path: '/projects/0'
     },
     // {
     //   label: '.Projects()',
