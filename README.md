@@ -1,4 +1,6 @@
-# BLOG
+# trakydeng.com
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a075ab4b-415b-4fa5-b314-f83570aa9ccf/deploy-status)](https://app.netlify.com/sites/trakydeng/deploys)
 
-Gatsby.js app boostrapped from [Lumen](https://github.com/alxshelepenok/gatsby-starter-lumen/blob/gatsby-v2)
+
+Personal portfolio website bootstrapped from [gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen/blob/gatsby-v2)
 

@@ -36,7 +36,7 @@ module.exports = {
       email: 'traky.deng@protonmail.com',
       github: 'Kayx23',
       linkedin: 'dengk7',
-      website_source_code: 'https://github.com'
+      website_source_code: 'https://github.com/Kayx23/trakydeng.com'
     }
   }
 };
