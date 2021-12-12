@@ -16,6 +16,7 @@ description: "Time Series Modelling (Seasonal ARIMA) of Lake Erie Water Levels i
 <a href="https://github.com/Kayx23/TimeSeries-LakeErie/blob/master/Lake_Erie_80-20.md" target="_blank">
 <img src="https://img.shields.io/static/v1?label=Source&message=Available&color=Green&style=plat-square&logo=github">
 </a>
+
 <br>
 <br>
 
@@ -27,5 +28,10 @@ Two SARIMA models were selected to proceed to the prediction stage for their low
 
 Both models were used to perform a 10-year prediction; both predicted similarly and reasonably in the end. 
 
+<div width="64px">
+<a href="https://github.com/Kayx23/TimeSeries-LakeErie/blob/assets/Poster.pdf" target="_blank">
+<img src="/media/ts-poster.png">
+</a>
+</div>
 
-![time-series-poster](/media/ts-poster.png)
+<br>

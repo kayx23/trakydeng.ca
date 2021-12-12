@@ -21,7 +21,6 @@ const Layout = ({
   const { url, siteSocialImage } = useSiteMetadata();
   // socialImage is from posts
   const metaImage = socialImage || siteSocialImage;
-  '/media/site-social-image.jpg'
   const metaImageUrl = url + metaImage;
 
   return (

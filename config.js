@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://www.trakydeng.com',
-  siteSocialImage: '/media/site-social-image.jpg',
+  siteSocialImage: '/site-social-image.jpg',
   pathPrefix: '/',
   title: 'Traky Deng',
   subtitle: '',
