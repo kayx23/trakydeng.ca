@@ -179,10 +179,11 @@ figcaption {
 
 .tech-stack-icons {
   display: flex;
+  flex-wrap: wrap;
   &>*{
     width: 34px;
     height: 30px;
-    margin-right: 15px;
+    margin-right: 12px;
     margin-bottom: 2rem;
   }
 }

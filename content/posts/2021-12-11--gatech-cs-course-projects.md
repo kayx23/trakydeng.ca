@@ -19,7 +19,7 @@ While it is commonly advised against to take two courses at the same time due to
 
 ### My background before taking the courses: 
 * Proficiency in Python. Comfortable picking apart a medium-sized codebase. 
-* Growing experience in full-stack web development and asynchronous programming. 
+* Growing experience in full-stack web development and asynchronous javascript. 
 * Got my CompTIA [Network+](https://www.credly.com/badges/161f89a6-a17b-4c5c-aa90-f72e004b4c0b/public_url) and [Security+](https://www.credly.com/badges/467fb46a-2d5c-4392-8d03-3478b74a6a49) earlier in the year.
 * Got more [hands on pen-test experiences](https://elearnsecurity.com/product/ejpt-certification/) when getting my [eJPT](https://www.dropbox.com/s/e5kdjh4l1usvu8b/eJPT.pdf?dl=0).
 * Did a couple more tryhackme boxes and understand the general methodologies to look for vulnerabilities and exploit them. 
@@ -67,7 +67,7 @@ This course has five projects and two exams.
 
 <div style='width:300px'>
 <img src='/media/bgph.png'>
-<figcaption>Project Network Diagram (Low Resolution to protect academic integrity)</figcaption>
+<figcaption>Project Network Diagram... Terrible resolution to protect academic integrity</figcaption>
 </div>
 <br>
 
@@ -82,7 +82,7 @@ And of course, savour a break to take care of my mental and physical health. Lif
 I hope you do too & happy holidays ❤️ 
 
 <br>
-<div style='width:250px'>
+<div style='width:250px;background-color:transparent'>
 <img src='/media/see-you-next-year.png'>
 </div>
 <br>
