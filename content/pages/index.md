@@ -3,7 +3,7 @@ title: "About Me"
 template: "home"
 ---
 
-Hi, my name is Traky. I like to code and read about Tech. 
+Hi, my name is Traky. I like to code and think about Tech. 
 
 My current experiences include full-stack web development, serverless backend, cloud, data analytics & visualization, machine learning, and automation. 
 
