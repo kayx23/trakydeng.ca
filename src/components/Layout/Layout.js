@@ -22,7 +22,7 @@ const Layout = ({
   // socialImage is from posts
   // const metaImage = socialImage || siteSocialImage;
   // const metaImageUrl = url + metaImage;
-  const metaImageUrl = 'https://user-images.githubusercontent.com/39619599/145702680-515d0afb-ac3b-4311-8056-b6606264fec3.jpg'
+  const metaImageUrl = 'https://user-images.githubusercontent.com/39619599/145702992-bc3a65ab-b56e-4da1-b88b-d9fcee0fe905.png'
 
   return (
     <div className={styles.layout}>
