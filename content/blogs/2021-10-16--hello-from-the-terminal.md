@@ -2,9 +2,9 @@
 title: Hello From the <del>Other Side</del> Terminal 
 date: "2021-10-16T23:40:00"
 template: "post"
-draft: true
+draft: false
 slug: "hello-from-the-terminal"
-category: "Miscellaneous"
+category: "Blog"
 tags:
   - "Miscellaneous"
   - "For Fun"
