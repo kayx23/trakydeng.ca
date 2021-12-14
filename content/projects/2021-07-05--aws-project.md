@@ -35,8 +35,8 @@ User signs up via a web form, which POSTs to an endpoint on the API Gateway. Lam
 
 ![aws-user-signup](/media/user-signup.png)
 
-### Distributing emails to subscribers:
+## Distributing emails to subscribers:
 
-To distribute an email to all verified users in the database table, the sender would send the email (optionally include a special string for generating subscription cancellation link) to a specific endpoint, which SES is configured to accept the incoming email for. When the email is received, SES saves the email to a S3 bucket, which triggers Lambda to grab the email from S3 bucket. Lambda then reads the email in MIME format and updates the "sender" field from the original sender address to an email address that [complies with DMARC](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-email-authentication-dmarc.html) (aka an email from a domain that I configured the SPF). Finally, the subscription cancellation link is generated, replacing the special string (if applicable) and the email gets sent out via SES to all verified users. 
+To distribute an email to all verified users in the database table, the sender would send the email (optionally include a special string for generating subscription cancellation link) to a specific endpoint, which SES is configured to accept the incoming email for. When the email is received, SES saves the email to a S3 bucket, which triggers Lambda to grab the email from S3 bucket. Lambda then reads the email in MIME format and updates the "sender" field from the original sender address to an email address that [complies with DMARC](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-email-authentication-dmarc.html) (i.e. an email from a domain that I configured the SPF for). Finally, the subscription cancellation link is generated, replacing the special string (if applicable) and the email gets sent out via SES to all verified users. 
 
 ![aws-email-distribution](/media/email-distribution.png)
