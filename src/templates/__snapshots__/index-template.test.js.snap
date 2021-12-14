@@ -342,7 +342,7 @@ exports[`IndexTemplate renders correctly 1`] = `
           >
             <a
               className="pagination__prev-link"
-              href="/page/1"
+              href="/projects/1"
               rel="prev"
             >
               ← PREV
@@ -353,7 +353,7 @@ exports[`IndexTemplate renders correctly 1`] = `
           >
             <a
               className="pagination__next-link"
-              href="/page/3"
+              href="/projects/3"
               rel="next"
             >
               → NEXT
