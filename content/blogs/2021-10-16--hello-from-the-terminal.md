@@ -7,34 +7,38 @@ slug: "hello-from-the-terminal"
 category: "Blog"
 tags:
   - "Miscellaneous"
-  - "For Fun"
   - "UNIX"
-description: "My terminal greets me with ASCII arts (cat, rabbit, coffee) and customized messages dynamically based on the hour of the day. You can set it up in 5 mins too."
-socialImage: "/media/terminal-login.png"
+description: "Setting up terminal greetings with ASCII arts and dynamic messages... for fun"
 ---
 
 <br>
 
-![terminal](/media/terminal-login.png)
+<div style='width:500px'>
+<img src='/media/terminal-login.png'>
+<figcaption>Animals are friends</figcaption>
+</div>
+<br>
 
-Many many and many days ago, I was bored and decided to throw some ASCII art into the start up script. The result is every time I start a new shell session, I get to see different ASCII art and messages echo-ed on the standard output, based on different hours of the day. 
+<br>
 
-This is one of those things you don't need in life but interesting to look at. I was recently asked again by a friend how I set it up, so I decided to write a quick tutorial. 
+I spin up new terminal sessions countless times a day. 
+
+So one day, I decided that it needed to look more lively. 
+
+I ended up throwing some ASCII arts and messages generated conditionally based on the time of the day into the the startup profile of the shell. Now, if you are used to the UNIX systems, you already know it's a no brainer. 
+
+But every now and then I get asked how this is set up, so here's how. 
 
 
-## First, how does it work?
-Every time a new shell session is being established, a series of startup scripts are invoked. We will be editing one of the scripts so that when involved, it conditionally echos some texts based on the system time. 
+## Steps
 
-
-## Ok, how do I set it up?
-
-First, find out what your default shell is to identify the location of the startup script. The easiest way is to look at the window header. At the time of writing, `zsh` should be prevelant among MacOS users as it has been the [default since Catalina](https://support.apple.com/en-us/HT208050). 
+First, find out what shell you are using. This helps to locate the startup profile of the shell. You can do this by running `echo $SHELL` in your terminal. 
 
 If you are on `zsh`, you can edit `.zlogin` (location: `~/.zlogin`), or other startup files like `.zshenv`. See [this post](https://unix.stackexchange.com/a/71258) for differences. 
 
-For `bash`, you would want to edit `.bash_profile`. 
+If you are on `bash`, you can edit `.bash_profile`. 
 
-Next, open the file with a text editor of your choice and start editing. Here's the script I use that you can get started with: 
+Once the file is located, open the file with a text editor of your choice and start editing. Here's the script used for the screenshot above:
 
 ```shell
 
@@ -85,7 +89,8 @@ Once done, source the file or open a new session to see the effect.
 
 ## Final Word
 
-Editing startup files to echo strings was a simple trick to throw in some fun when you start up the terminal. For more comprehensive configurations (i.e. plugins and themes), check out [Oh My Zsh](https://ohmyz.sh/) if you haven't already! 
+Editing the startup profiles to echo content to stdout is an extremely simple/quick trick to throw in some fun (or just be a little extra some days :D) when you start up the terminal. 
 
+Additionally, I also use [Oh My Zsh](https://ohmyz.sh/) for more stylings and plugins. If you're a terminal person, check them out!
 
-
+<br>
