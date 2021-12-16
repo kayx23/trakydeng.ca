@@ -5,8 +5,8 @@ import Pagination from './Pagination';
 
 describe('Pagination', () => {
   const props = {
-    prevPagePath: '/projects/1',
-    nextPagePath: '/projects/3',
+    prevPagePath: '/1',
+    nextPagePath: '/3',
     hasNextPage: true,
     hasPrevPage: true
   };

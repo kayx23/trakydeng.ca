@@ -27,15 +27,15 @@ module.exports = async (graphql, actions) => {
 
     for (let i = 0; i < numPages; i += 1) {
       createPage({
-        path: i === 0 ? tagSlug : `${tagSlug}/projects/${i}`,
+        path: i === 0 ? tagSlug : `${tagSlug}/${i}`,
         component: path.resolve('./src/templates/tag-template.js'),
         context: {
           tag: tag.fieldValue,
           currentPage: i,
           postsLimit: postsPerPage,
           postsOffset: i * postsPerPage,
-          prevPagePath: i <= 1 ? tagSlug : `${tagSlug}/projects/${i - 1}`,
-          nextPagePath: `${tagSlug}/projects/${i + 1}`,
+          prevPagePath: i <= 1 ? tagSlug : `${tagSlug}/${i - 1}`,
+          nextPagePath: `${tagSlug}/${i + 1}`,
           hasPrevPage: i !== 0,
           hasNextPage: i !== numPages - 1
         }

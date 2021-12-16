@@ -16,11 +16,14 @@ type Props = {
 const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
-  const { tags, title, date } = post.frontmatter;
+  const { tags, title, date, category } = post.frontmatter;
+
+  // category/blog, category/project
+  let returnTo = '/category/' + category;
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/projects/0">All Projects</Link>
+      <Link className={styles['post__home-button']} to={returnTo}>Return</Link>
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />
