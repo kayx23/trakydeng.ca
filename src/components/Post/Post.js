@@ -1,6 +1,6 @@
 // @flow strict
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, navigate } from 'gatsby';
 // import Author from './Author';
 import Comments from './Comments';
 import Content from './Content';
@@ -18,12 +18,14 @@ const Post = ({ post }: Props) => {
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date, category } = post.frontmatter;
 
-  // category/blog, category/project
-  let returnTo = '/category/' + category;
+  // let returnTo = '/' + category.toLowerCase();
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to={returnTo}>Return</Link>
+      {/* <Link className={styles['post__home-button']} to={returnTo}>Return</Link> */}
+      <a className={styles['post__home-button']} onClick={() => navigate(-1)}>
+        ⬅ &nbsp;Return
+      </a>
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />
