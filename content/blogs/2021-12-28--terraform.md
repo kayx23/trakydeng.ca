@@ -18,7 +18,7 @@ description: "See how the declarative design comes into play"
 ## Overview
 [Terraform](https://github.com/hashicorp/terraform) is an open-source **infrastructure-as-code (IaC)** tool created by HashiCorp written in Go. The tool helps to codify the infrastructure lifecycle (e.g. provision, update, destroy) in a human-readable format. It supports [multiple cloud platforms](https://registry.terraform.io/browse/providers). 
 
-Terraform takes a **declarative** approach to IaC. Users declare the **end state** of the resource in [HCL](https://www.terraform.io/language); the tool will provision/update the resource accordingly, converging to the declared state. An alternative approach is **imperative**, which works by sequentially executing the instruction set from users (think synchronous programming). 
+Terraform takes a **declarative** approach to IaC. Users declare the **end state** of the resource in [HCL](https://www.terraform.io/language); the tool will provision/update the resource accordingly, converging to the declared state. An alternative approach is **imperative**, which works by sequentially executing the instruction set from users. 
 
 In layman's terms, the declarative approach focuses on the **WHAT** and the imperative approach focuses on the **HOW**. 
 
