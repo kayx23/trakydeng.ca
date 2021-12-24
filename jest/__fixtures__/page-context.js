@@ -5,8 +5,8 @@ module.exports = {
     tag: 'test',
     category: 'test',
     currentPage: 1,
-    prevPagePath: '/projects/1',
-    nextPagePath: '/projects/3',
+    prevPagePath: '/1',
+    nextPagePath: '/3',
     hasNextPage: true,
     hasPrevPage: true
   }

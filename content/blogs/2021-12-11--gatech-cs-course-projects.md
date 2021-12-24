@@ -1,10 +1,10 @@
 ---
-title: GaTech CS Course Projects (Part 1)
+title: GaTech CS Courses & Projects (Part 1)
 date: "2021-12-11T22:39:00"
 template: "post"
 draft: false
 slug: "gatech-cs-course-projects"
-category: "Project"
+category: "Blog"
 tags:
   - "Computer Networks"
   - "Network Security"
@@ -26,7 +26,7 @@ While it is commonly advised against to take two courses at the same time due to
 
 <div style='width:300px'>
 <img src='/media/tryharder.png'>
-<figcaption>Something you hear everywhere if you were ever interested in Offensive Security</figcaption>
+<figcaption>✌️</figcaption>
 </div>
 
 
@@ -75,7 +75,7 @@ This course has five projects and two exams.
 
 ## Wrapping Up & Next Step
 
-My final project grade was just released as I'm writing this... perfect wrap for both courses! I'm likely taking the next semester off to spend more time learning about work-related tech stacks/tools and other stuff that interests me. 
+My final project grade was just released as I'm writing this... perfect wrap for both courses! I'm likely taking the next semester off to spend more time learning about work-related tech stacks/tools (not sure yet) and other stuff that interests me. 
 
 And of course, savour a break to take care of my mental and physical health. Life is long  ;D
 

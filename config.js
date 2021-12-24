@@ -16,13 +16,13 @@ module.exports = {
       path: '/'
     },
     {
-      label: '.Projects()',
-      path: '/projects/0'
+      label: '.Project()',
+      path: '/project'
     },
-    // {
-    //   label: '.Projects()',
-    //   path: '/pages/projects'
-    // },
+    {
+      label: '.Blog()',
+      path: '/blog'
+    },
     {
       label: '.Tags()',
       path: '/tags'

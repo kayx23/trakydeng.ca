@@ -6,6 +6,7 @@ draft: false
 slug: "aws-serverless-email-list"
 category: "Project"
 tags:
+  - "Cloud"
   - "AWS"
   - "Serverless"
   - "Lambda"
@@ -13,7 +14,6 @@ tags:
   - "DynamoDB"
   - "S3"
   - "API Gateway"
-  - "Python"
 description: "AWS serverless backend replicating Mailchimp's email sign-up and distribution"
 ---
 

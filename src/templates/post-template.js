@@ -15,7 +15,7 @@ type Props = {
 const PostTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
-  const { title: postTitle, description: postDescription = '', socialImage } = frontmatter;
+  const { title: postTitle, description: postDescription = '' } = frontmatter;
   const metaDescription = postDescription || siteSubtitle;
   // const socialImageUrl = socialImage?.publicURL;
 
@@ -40,9 +40,7 @@ export const query = graphql`
         description
         tags
         title
-        socialImage {
-          publicURL
-        }
+        category
       }
     }
   }
