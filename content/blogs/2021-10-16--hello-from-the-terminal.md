@@ -8,7 +8,7 @@ category: "Blog"
 tags:
   - "Miscellaneous"
   - "UNIX"
-description: "Setting up terminal greetings with ASCII arts and dynamic messages... for fun"
+description: "Terminal greetings that nobody asked for (...ASCII art alert)"
 ---
 
 <br>

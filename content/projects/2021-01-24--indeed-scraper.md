@@ -22,7 +22,7 @@ description: "Compare different approaches to scrape job posts off Indeed Canada
 
 
 ## ❗ Disclaimer
-Please note that this was an interest project to learn more about web scraping and anti-scraping mechanisms on job boards. I will not be held responsible for any violation caused by the direct/indirect use of my scripts. 
+Please note that this was a hobby project to learn more about web scraping and anti-scraping mechanisms on job boards. I am not held responsible for any violation resulted from the direct/indirect use of my scripts or information presented here. 
 
 ## Overview
 <p style="margin-bottom:0">
