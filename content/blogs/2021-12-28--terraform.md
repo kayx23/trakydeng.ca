@@ -164,7 +164,7 @@ Your guess is as good as mine but let's mess it up together.
 Nothing's messed up. Terraform detected that the resource was modified outside of terraform and there is nothing to destroy. It simply updated the `terraform.tfstate` to mark this state update. 
 
 ## Final Words
-Hope you enjoy the read! This was a terraform 101 session for me as well. If you have any feedback about the content, please feel free to open an issue/PR under this blog's [repo](https://github.com/Kayx23/trakydeng.com). 
+Hope you enjoy the read! This was a terraform 101 session for me as well. If you have any feedback about the content, please feel free to open an issue/PR under this blog's [repo](https://github.com/Kayx23/trakydeng.ca). 
 
 
 [Merry Chrysler!](https://youtu.be/_Z-Nu351j58)

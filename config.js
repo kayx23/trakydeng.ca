@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://www.trakydeng.com',
+  url: 'https://www.trakydeng.ca',
   pathPrefix: '/',
   title: 'Traky Deng',
   subtitle: '',
@@ -37,7 +37,7 @@ module.exports = {
       email: 'traky.deng@protonmail.com',
       github: 'Kayx23',
       linkedin: 'dengk7',
-      website_source_code: 'https://github.com/Kayx23/trakydeng.com'
+      website_source_code: 'https://github.com/Kayx23/trakydeng.ca'
     }
   }
 };

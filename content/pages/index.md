@@ -3,11 +3,11 @@ title: "About Me"
 template: "home"
 ---
 
-Hi, my name is Traky. I like to code and think about Tech. 
+Hi, my name is Traky. I am a Tech hobbyist. 
 
-My current experiences include full-stack web development, serverless backend, cloud, data analytics & visualization, machine learning, and automation. 
+My current experiences include full-stack web development, serverless backend, cloud, data analytics & visualization, machine learning, and automation. You could find my past projects under the 'Project' tab.
 
-My interests are in **software development**, **security**, and **infrastructure**. Currently looking to expand my knowledge in DevOps.
+My interests are in **software**, **security**, and **infrastructure**. Currently expanding my knowledge in DevOps.
 
 
 #### I work with: 
