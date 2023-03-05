@@ -3,11 +3,11 @@ title: "About Me"
 template: "home"
 ---
 
-Hi, my name is Traky. I am a Tech hobbyist. 
+Hi, my name is Traky. I am a tech lover. 
 
-My current experiences include full-stack web development, serverless backend, cloud, data analytics & visualization, machine learning, and automation. You could find my past projects under the 'Project' tab.
+My current experiences include full-stack web development, serverless backend, cloud, data analytics & visualization, machine learning, and automation. 
 
-My interests are in **software**, **security**, and **infrastructure**. Currently expanding my knowledge in DevOps.
+My interests are in **software**, **security**, and **infrastructure**. Currently expanding my knowledge in cloud-native API Gateways.
 
 
 #### I work with: 
@@ -32,13 +32,27 @@ My interests are in **software**, **security**, and **infrastructure**. Currentl
 <a target="_blank" href="https://vuejs.org/" title="Vue.js"><img width="30px" src="/icons/vue.svg" alt="Vue.js" style="margin-left:-4px;padding-top:3px"></a>-->
 </div>
 
+#### Certs/Exams where I learned more:
+
+* [CompTIA Security+](https://www.credly.com/badges/467fb46a-2d5c-4392-8d03-3478b74a6a49)
+* [CompTIA Network+](https://www.credly.com/badges/161f89a6-a17b-4c5c-aa90-f72e004b4c0b/public_url)
+* [eLearnSecurity Junior Penetration Tester (eJPT)](https://www.dropbox.com/s/e5kdjh4l1usvu8b/eJPT.pdf?dl=0)
+* [Azure Administrator Associate (AZ-104)](https://www.credly.com/badges/267490ec-89ee-4d4a-a3e7-86b54d40bec3)
+* [Azure Fundamental (AZ-900)](https://www.credly.com/badges/df0bffdb-4859-4f62-902b-4131288b960f/public_url)
+* [Tableau Desktop Specialist](https://www.credly.com/badges/69a4c75a-b6e6-4756-89a5-d83dca768d26/linked_in_profile)
+* [SAS Base Programmer](https://www.credly.com/badges/e60a0568-66e7-471d-b2be-b26fa0f46631/linked_in_profile)
+* [Society of Actuaries - Probability (P)](https://www.soa.org/education/exam-req/edu-exam-p-detail/)
+* [Society of Actuaries - Financial Mathematics (FM)](https://www.soa.org/education/exam-req/edu-exam-fm-detail/)
+* [Society of Actuaries - Investment and Financial Mathematics (IFM)](https://www.soa.org/education/exam-req/edu-exam-ifm-detail/)
+
+
 ## <ins>Education</ins>
 
 <h3 style='margin-top:30px; margin-bottom:0'>Georgia Institute of Technology</h3>
 <p style='margin:0px auto; padding-top:5px;'>Master of Computer Science, Computing Systems <span title='GPA 4.0/4.0')>🔖</span></p>
 <p class='school-location'>Part-Time | Remote</p>
 
-* __Completed Courses:__ [Network Security](https://omscs.gatech.edu/cs-6262-network-security), [Computer Networks](https://omscs.gatech.edu/cs-6250-computer-networks)
+* __Completed Courses:__ [Network Security](https://omscs.gatech.edu/cs-6262-network-security), [Computer Networks](https://omscs.gatech.edu/cs-6250-computer-networks), [Software Architecture and Design](https://omscs.gatech.edu/cs-6310-software-architecture-design)
 
 
 <h3 style='margin-top:30px; margin-bottom:0'>McMaster University </h3>

@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Traky Deng',
   subtitle: '',
-  copyright: '© 2021 All Rights Reserved',
+  copyright: '© 2023 All Rights Reserved',
   disqusShortname: '',
   postsPerPage: 5,
   // googleAnalyticsId: 'UA-73379983-2',
