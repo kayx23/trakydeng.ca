@@ -25,18 +25,18 @@ description: "AWS serverless backend replicating Mailchimp's email sign-up and d
 
 This is a serverless backend system currently in use by a school club I was in for subscription sign-up and email distribution. 
 
-Inspired by Mailchimp, which offers similar functionalities at a price, I built the basic sign-up and email distribution functionalities using AWS Free Tier services. 
+Inspired by Mailchimp, which offers similar functionalities at a price, built the basic sign-up and email distribution functionalities using AWS Free Tier services. 
 
 * **Core Services Used:** API Gateway, Lambda, DynamoDB, [SES (prod)](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html), S3    
 * **Other Services Used:** IAM, SNS, CloudWatch
 
 ## User sign-up:
-User signs up via a web form, which POSTs to an endpoint on the API Gateway. Lambda is triggered to add the user to the database with the `verified` field set to `false` and `TTL` set to one hour. At the same time, it sends a confirmation email to the user using SES. User can either choose to confirm or remove the subscription in the email they receive, which will send a GET request to the corresponding endpoint to trigger lambda to update the database record accordingly. If no action, the record will be removed when the TTL expires by DynamoDB. 
+User signs up via a web form, which POSTs to an endpoint on the API Gateway, Lambda is triggered to add the user to the database with the `verified` fired set to `false` and `TTL` set to one hour, At the same time, it sends a confirmation email to the user using SES. User can either choose to confirm or remove the subscription in the email they receive, which will send a GET request to the corresponding endpoint to trigger lambda to update the database record accorgily. If no action, the record will be removed when the TTL expires by DynamoDB. 
 
 ![aws-user-signup](/media/user-signup.png)
 
 ## Distributing emails to subscribers:
 
-To distribute an email to all verified users in the database table, the sender would send the email (optionally include a special string for generating subscription cancellation link) to a specific endpoint, which SES is configured to accept the incoming email for. When the email is received, SES saves the email to a S3 bucket, which triggers Lambda to grab the email from S3 bucket. Lambda then reads the email in MIME format and updates the "sender" field from the original sender address to an email address that [complies with DMARC](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-email-authentication-dmarc.html) (i.e. an email from a domain that I configured the SPF for). Finally, the subscription cancellation link is generated, replacing the special string (if applicable) and the email gets sent out via SES to all verified users. 
+To distribute an email to all verified users in the database table, the sender would send the email (optionally include a special string for generating suscription cancellation link) to a specific endpoint, which SES is configured to accept the incoming email for. When the email is received, SES saves the email to a S3 bucket, which triggers Lambda to grab the email from S3 bucket. Lambda then reads the email in MIME format and updates the "sender" field from the original sender address to an email address that [complies with DMARC](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-email-auttication-dmarc.html) (i.e. an email from a domain that I configured the SPF for). Finally, the subscription cancellation link is generated, replacing the special string (if applicable) and the email gets sent out via SES to all verified users. 
 
 ![aws-email-distribution](/media/email-distribution.png)
