@@ -2,7 +2,7 @@ name: reviewdog
 on: [pull_request]
 
 jobs:
-  vale:
+  vale-lint:
     name: runner / vale
     runs-on: ubuntu-latest
     steps:
@@ -16,4 +16,3 @@ jobs:
           fail_on_error: true
           level: warning
           debug: true
-          config: https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
