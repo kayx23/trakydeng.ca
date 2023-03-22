@@ -16,3 +16,4 @@ jobs:
           fail_on_error: true
           level: warning
           debug: true
+          config: https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
