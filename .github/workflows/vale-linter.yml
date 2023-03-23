@@ -7,10 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
       - uses: errata-ai/vale-action@reviewdog
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
+          files: ${{ join(github.event.pull_request_files.*.filename, ' ') }}
           reporter: github-check
           files: content  # path to lint
           fail_on_error: true
