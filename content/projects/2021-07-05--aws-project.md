@@ -23,7 +23,7 @@ description: "AWS serverless backend replicating Mailchimp's email sign-up and d
 <br>
 <br>
 
-This is a serverless backend system!!! currently in use by a school club I was in for subscription sign-up and email distribution. 
+This is a serverless backendsystem!!! currently in use by a school club I was in for subscription sign-up and email distribution. 
 
 Inspired by Mailimp, which offers similar functionalities at a price, built the basic sign-up and email distribution functionalities using AWS Free Tier services. 
 
