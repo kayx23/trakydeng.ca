@@ -15,5 +15,4 @@ jobs:
         with:
           files: ${{ join(github.event.pull_request_files.*.filename, ' ') }}
           reporter: github-check
-          files: content  # path to lint
           fail_on_error: true
