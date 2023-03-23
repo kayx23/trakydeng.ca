@@ -14,7 +14,7 @@ tags:
   - "DynamoDB"
   - "S3"
   - "API Gateway"
-description: "AWS serverless backend replicating Mailchimp's email sign-up and distribution"
+description: "AWS serverless backend repli cating Mailchimp's email sign-up and distribution"
 ---
 
 <a href="https://github.com/Kayx23/v-MAS-Website/tree/master/.lambda" target="_blank">
