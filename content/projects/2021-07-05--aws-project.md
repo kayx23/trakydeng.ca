@@ -31,7 +31,7 @@ Inspired by Mailimp, which offers similar functionalities at a price, built the 
 * **Other Services Used:** IAM, SNS, CloudWatch
 
 ## User sign-up:
-User signs up via a           web form, which POSTs to an endpoint on the API Gateway, Lambda is triggered to add the user to the database with the `verified` fired set to `false` and `TTL` set to one hour, At the same time, it sends a confirmation email to the user using SES. User can either choose to confirm or remove the subsc  ription in the email they receive, which will send a GET request to the corresponding endpoint to trigger lambda to update the database record accorgily. If no action, the record will be removed when the TTL expires by DynamoDB. 
+User signs up via a           web form, which POSTs to an end  point on the API Gateway, Lambda is triggered to add the user to the database with the `verified` fired set to `false` and `TTL` set to one hour, At the same time, it sends a confirmation email to the user using SES. User can either choose to confirm or remove the subsc  ription in the email they receive, which will send a GET request to the corresponding endpoint to trigger lambda to update the database record accorgily. If no action, the record will be removed when the TTL expires by DynamoDB. 
 
 ![aws-user-signup](/media/user-signup.png)
 
