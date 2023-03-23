@@ -1,0 +1,14 @@
+# For a list of all options, see https://errata-ai.gitbook.io/vale/getting-started/styles
+
+extends: spelling
+message: 'Spelling check: "%s"?'
+level: warning
+filters: 
+  - Docusaurus
+  - Traky
+  - AWS
+  - SES
+  - serverless
+  - npm
+  - config
+  - blackholed
