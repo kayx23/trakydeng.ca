@@ -5,7 +5,10 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/47ee170a-5a77-43ab-9c88-c48aea63b971/deploy-status)](https://app.netlify.com/sites/peppy-truffle-0eed22/deploys)
 
-Personal website bootstrapped from [gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen)
+Personal website bootstrapped from [gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen). 
+
+[Framework modified](https://github.com/kayx23/trakydeng.ca/commit/a85222b82799c60fbf36caf980c707c54a72dbdb#diff-d2c597a66a9c7fa6b0dbc012486d3313efeaeef717dc3ec01aad881c573a685a) to separate posts in blog and projects.  
+
 
 ## Quickstart
 ```
