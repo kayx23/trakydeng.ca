@@ -9,7 +9,6 @@ tags:
   - "Python"
   - "Modelling"
   - "Statistics"
-  - "Math"
   - "Epidemiology"
 description: "Model the 2003 SARS Outbreak in Hong Kong with a Susceptible-Infected-Recovered-Dead (SIRD) compartmental model"
 ---
