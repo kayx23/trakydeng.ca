@@ -35,15 +35,13 @@ The underlying algorithm is something called "verlet integration." It is a numer
 ```
 x(t+dt) = 2*x(t) - x(t-dt) + a(t)*dt^2
 ```
-$$
-$x(t + {d t}) = 2x(t) - x(t - {d t}) + a(t)*{d t}^2$
-$$
-\frac{d D}{d t}
-* $\Delta t$ is the time step size
-* $x(t)$ is the current position of the vertex
-* x(t-dt) is its position at the previous time step
+
+* dt is the time step size
 * x(t+dt) is its predicted position at the next time step
+* x(t) is the current position of the vertex
+* x(t-dt) is its position at the previous time step
 * a(t) is its current acceleration
+
 
 Verlet integration is used to simulate the behavior of a tearable mesh by calculating the position and velocity of each point in the mesh based on the forces acting on it.  When a tear occurs, the mesh is split into two or more separate pieces, and each piece is treated as a separate object in the simulation. 
 
