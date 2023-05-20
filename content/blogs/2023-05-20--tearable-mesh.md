@@ -26,21 +26,24 @@ I was wandering around Codepen for cool animations a while back and found a tear
 
 Quite therapeutic, innit? Reminds me of a [rage room](https://en.wikipedia.org/wiki/Rage_room)... Such a stress reliever!
 
-After spending a few minutes tearing the mesh apart and gasping at how realistic it feels, I was set off to find out how this was built. I was introduced to something called "verlet integration".
+After spending a few minutes tearing the mesh apart and gasping at how realistic it feels, I was set off to find out how this was built.
 
 ## Verlet Integration
 
-Verlet integration is a numerical method for simulating motion and behavior of objects in real-time. The Verlet integration formula looks something like this:
+The underlying algorithm is something called "verlet integration." It is a numerical method for simulating motion and behavior of objects in real-time. The formula looks something like this:
 
 ```
 x(t+dt) = 2*x(t) - x(t-dt) + a(t)*dt^2
 ```
 $$
-$x(t + \Delta t) = 2x(t) - x(t - \Delta t) + a(t) \Delta t^2$
+$x(t + {d t}) = 2x(t) - x(t - {d t}) + a(t)*{d t}^2$
 $$
-
-
-where x(t) is the current position of the vertex, x(t-dt) is its position at the previous time step, x(t+dt) is its predicted position at the next time step, a(t) is its current acceleration, and dt is the time step size.
+\frac{d D}{d t}
+* $\Delta t$ is the time step size
+* $x(t)$ is the current position of the vertex
+* x(t-dt) is its position at the previous time step
+* x(t+dt) is its predicted position at the next time step
+* a(t) is its current acceleration
 
 Verlet integration is used to simulate the behavior of a tearable mesh by calculating the position and velocity of each point in the mesh based on the forces acting on it.  When a tear occurs, the mesh is split into two or more separate pieces, and each piece is treated as a separate object in the simulation. 
 
