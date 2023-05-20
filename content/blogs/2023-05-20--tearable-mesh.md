@@ -13,16 +13,17 @@ description: "TBD"
 
 <br>
 
+I was wandering around Codepen for cool animations a while back and spotted an interactive tearable mesh animation:
 
+<div>
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="nYQrNP" data-editable="true" data-user="dissimulate" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/dissimulate/pen/nYQrNP">
-  Tearable Cloth</a> by dissimulate (<a href="https://codepen.io/dissimulate">@dissimulate</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
+
+Quite therapeutic, innit?! It reminds me of a [rage room](https://en.wikipedia.org/wiki/Rage_room) – such a stress reliever.
 
 ## Overview
-
 
 ![XPG3-XPG4 Base Migration Guide](/media/xpg.png)
 <figcaption>(XPG3-XPG4 Base Migration Guide)</figcaption>
