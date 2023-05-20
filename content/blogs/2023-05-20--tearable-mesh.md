@@ -13,7 +13,7 @@ description: "Introduce how a tearable mesh animation is built"
 
 <br>
 
-I was wandering around Codepen for cool animations a while back and found a tearable mesh animation:
+I was wandering around Codepen for cool animations a while back and found an interactive tearable mesh animation:
 
 ![Tearable Mesh Animation](/media/tearable-mesh.gif)
 <figcaption>https://codepen.io/dissimulate/pen/nYQrNP</figcaption>
