@@ -1,5 +1,5 @@
 ---
-title: Tearable Mesh & Verlet Integration
+title: Tearable Mesh and Verlet Integration
 date: "2023-05-20T19:00:00"
 template: "post"
 draft: false
@@ -8,7 +8,7 @@ category: "Blog"
 tags:
   - "Modelling"
   - "Web Development"
-description: "TBD"
+description: "Introduce how a tearable mesh animation is built"
 ---
 
 <br>
