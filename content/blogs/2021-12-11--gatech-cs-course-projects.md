@@ -7,7 +7,7 @@ slug: "gatech-cs-course-projects"
 category: "Blog"
 tags:
   - "Computer Networks"
-  - "Network Security"
+  - "Security"
 description: "Fall 2021 semester reflection and course projects"
 ---
 
