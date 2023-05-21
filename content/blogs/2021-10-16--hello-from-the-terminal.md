@@ -7,7 +7,7 @@ slug: "hello-from-the-terminal"
 category: "Blog"
 tags:
   - "Miscellaneous"
-  - "UNIX"
+  - "Unix"
 description: "Terminal greetings that nobody asked for (...ASCII art alert)"
 ---
 
