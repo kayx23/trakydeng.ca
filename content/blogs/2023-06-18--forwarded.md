@@ -7,7 +7,7 @@ slug: "forwarded-http-headers"
 category: "Blog"
 tags:
   - "Web Development"
-description: "Learn about Forwarded` and `X-Forwarded-For` HTTP Headers"
+description: "Learn about `Forwarded` and `X-Forwarded-For` HTTP Headers"
 ---
 
 <br>
@@ -18,7 +18,7 @@ If you are in web developer or have worked with a backend API, you may have seen
 X-Forwarded-For: 192.168.0.7, 10.41.3.18, 10.172.238.178
 ```
 
-Or the new HTTP header field `Forwarded`, such as:
+Or the newer header field `Forwarded`, such as:
 
 ```
 Forwarded: for=192.168.0.7; by=10.41.3.18; by=10.172.238.178
@@ -26,10 +26,9 @@ Forwarded: for=192.168.0.7; by=10.41.3.18; by=10.172.238.178
 
 This blog explains how similar and different the two HTTP headers are.
 
-
 ## Comparisons
 
-Both `Forwarded` and `X-Forwarded-For` are HTTP header fields used to track the IP address of the client making a request to a server.
+Both `Forwarded` and `X-Forwarded-For` are HTTP header fields used to indicate the IP address of the original client and the route that a request took when forwarded across multiple proxy servers. 
 
 The `X-Forwarded-For` header emerged earlier. As the prefix `X-` indicates, it is not an official standard. The field contains a comma-separated list of IP addresses, where the leftmost IP address is the original client IP address and the following are IP addresses of the proxy servers that a request has been proxied through. The general format of the field is:
 
@@ -53,4 +52,6 @@ There are several reasons why you may want to use `Forwarded` over `X-Forwarded-
 1. Standardization with RFC.
 2. Flexibility. The `Forwarded` header supports more parameters and values, such as `proto` and `hostname`. This allows for more complex forwarding scenarios.
 
-However, you may want to use `X-Forwarded-For` for a few reasons, such as when working with legacy systems, or when backward compatibility is a requirement.
+However, you may still want to use `X-Forwarded-For` for a few reasons, such as when working with legacy systems, or when backward compatibility is a requirement.
+
+<br>
