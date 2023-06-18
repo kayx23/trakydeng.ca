@@ -48,7 +48,7 @@ Forwarded: for=client; by=proxy1; by=proxy2
 
 ## Which one to use
 
-There are several reasons why you may want to use `Forwarded` over `X-Forwarded-For`:
+There are several reasons why you may want to use `Forwarded` over `X-Forwarded-For`: 
 
 1. Standardization with RFC.
 2. Flexibility. The `Forwarded` header supports more parameters and values, such as `proto` and `hostname`. This allows for more complex forwarding scenarios.
