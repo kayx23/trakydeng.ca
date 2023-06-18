@@ -7,6 +7,7 @@ slug: "forwarded-http-headers"
 category: "Blog"
 tags:
   - "Web Development"
+  - "Computer Networks"
 description: "Learn about `Forwarded` and `X-Forwarded-For` HTTP Headers"
 ---
 
@@ -18,18 +19,16 @@ If you are in web developer or have worked with a backend API, you may have seen
 X-Forwarded-For: 192.168.0.7, 10.41.3.18, 10.172.238.178
 ```
 
-Or the newer header field `Forwarded`, such as:
+You may also have seen a simialr header field `Forwarded` that looks like:
 
 ```
 Forwarded: for=192.168.0.7; by=10.41.3.18; by=10.172.238.178
 ```
 
-The **MDN web docs** of these headers can be found at:
+This blog explains how similar and different the two HTTP headers are. Their MDB web docs can be found at:
 
 * [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For)
 * [Forwarded](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded)
-
-This blog explains how similar and different the two HTTP headers are.
 
 ## Comparisons
 
