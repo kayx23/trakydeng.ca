@@ -8,7 +8,7 @@ category: "Blog"
 tags:
   - "Web Development"
   - "Computer Networks"
-description: "Learn about `Forwarded` and `X-Forwarded-For` HTTP Headers"
+description: "Learn about Forwarded and X-Forwarded-For HTTP Headers"
 ---
 
 <br>
