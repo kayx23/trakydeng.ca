@@ -24,11 +24,16 @@ Or the newer header field `Forwarded`, such as:
 Forwarded: for=192.168.0.7; by=10.41.3.18; by=10.172.238.178
 ```
 
+The **MDN web docs** of these headers can be found at:
+
+* [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For)
+* [Forwarded](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded)
+
 This blog explains how similar and different the two HTTP headers are.
 
 ## Comparisons
 
-Both `Forwarded` and `X-Forwarded-For` are HTTP header fields used to indicate the IP address of the original client and the route that a request took when forwarded across multiple proxy servers. 
+Both `Forwarded` and `X-Forwarded-For` are HTTP header fields used to indicate **the IP addresses of the original client and the route that a request took when forwarded across multiple proxy servers**. 
 
 The `X-Forwarded-For` header emerged earlier. As the prefix `X-` indicates, it is not an official standard. The field contains a comma-separated list of IP addresses, where the leftmost IP address is the original client IP address and the following are IP addresses of the proxy servers that a request has been proxied through. The general format of the field is:
 
