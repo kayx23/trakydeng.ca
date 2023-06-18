@@ -1,6 +1,6 @@
 ---
-title: `Forwarded` and `X-Forwarded-For` HTTP Headers
-date: "2023-06-18T22:00:00"
+title: Forwarded and X-Forwarded-For HTTP Headers
+date: "2023-06-18T21:30:00"
 template: "post"
 draft: false
 slug: "forwarded-http-headers"
@@ -11,8 +11,6 @@ description: "Learn about Forwarded` and `X-Forwarded-For` HTTP Headers"
 ---
 
 <br>
-
-## Overview
 
 If you are in web developer or have worked with a backend API, you may have seen the HTTP header field `X-Forwarded-For`, such as:
 
