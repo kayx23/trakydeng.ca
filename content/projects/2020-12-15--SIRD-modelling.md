@@ -20,13 +20,11 @@ description: "Model the 2003 SARS Outbreak in Hong Kong with a Susceptible-Infec
 <br>
 
 <figure>
-    <blockquote>
-        <p style="margin:0">Flatten the Curve, Not Fatten.</p>
-    </blockquote>
     <figure style="width: 230px">
 	    <img src='/media/covid-meme.jpeg' alt='COVID meme you\'s seen a gazillion times'>
     </figure>
-    <figcaption>To the year(s) of COVID</figcaption>
+    <figcaption>flatten the curve, not fatten</figcaption>
+    <figcaption>...to the year(s) of COVID</figcaption>
 </figure>
 
 ## Overview
