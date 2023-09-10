@@ -32,7 +32,7 @@ module.exports = {
     name: 'Traky Deng',
     photo: '/photo.jpg',
     // siteSocialImage: '/site-social-image.jpg',
-    bio: 'Web Dev & Tech Lover',
+    bio: 'Tech Lover & Generalist',
     contacts: {
       email: 'traky.deng@protonmail.com',
       github: 'Kayx23',

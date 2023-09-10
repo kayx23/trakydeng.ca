@@ -3,14 +3,13 @@ title: "About Me"
 template: "home"
 ---
 
-Hi, my name is Traky. I am a tech lover. 
+Hi, my name is Traky. I am a tech lover and I enjoy being a general technologist.
 
-My current experiences include full-stack web development, serverless backend, cloud, data analytics & visualization, machine learning, and automation. 
+My experiences include full-stack web development, DevOps, cloud, serverless computing, data analytics & visualization, machine learning, and automation. I have also previously worked in the actuarial fields following my undergraduate studies.
 
-My interests are in **software**, **security**, and **infrastructure**. Currently expanding my knowledge in cloud-native API Gateways.
+While my interests are always with general IT, I am in particularly interested in **open source**, **software**, **security**, and **infrastructure**. Currently expanding my knowledge in cloud-native API Gateways through technical writing.
 
-
-#### I work with: 
+#### A few technologies I work with: 
 
 <div class='tech-stack-icons'>
 <a target="_blank" href="https://www.python.org/" title="Python"><img width="30px" src="/icons/python.svg" alt="Python" ></a>
@@ -32,7 +31,7 @@ My interests are in **software**, **security**, and **infrastructure**. Currentl
 <a target="_blank" href="https://vuejs.org/" title="Vue.js"><img width="30px" src="/icons/vue.svg" alt="Vue.js" style="margin-left:-4px;padding-top:3px"></a>-->
 </div>
 
-#### Certs/Exams where I learned more:
+#### Certs and exams under my belt:
 
 * [CompTIA Security+](https://www.credly.com/badges/467fb46a-2d5c-4392-8d03-3478b74a6a49)
 * [CompTIA Network+](https://www.credly.com/badges/161f89a6-a17b-4c5c-aa90-f72e004b4c0b/public_url)
