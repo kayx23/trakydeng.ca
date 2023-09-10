@@ -34,7 +34,7 @@ module.exports = {
     // siteSocialImage: '/site-social-image.jpg',
     bio: 'Tech Lover & Generalist',
     contacts: {
-      email: 'traky.deng@protonmail.com',
+      email: 'traky@apache.org',
       github: 'Kayx23',
       linkedin: 'dengk7',
       website_source_code: 'https://github.com/Kayx23/trakydeng.ca'
