@@ -16,12 +16,12 @@ module.exports = {
       path: '/'
     },
     {
-      label: '.Project()',
-      path: '/project'
-    },
-    {
       label: '.Blog()',
       path: '/blog'
+    },
+    {
+      label: '.Project()',
+      path: '/project'
     },
     {
       label: '.Tags()',
