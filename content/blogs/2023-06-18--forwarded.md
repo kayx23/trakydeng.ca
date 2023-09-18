@@ -25,7 +25,7 @@ You may also have seen a simialr header field `Forwarded` that looks like:
 Forwarded: for=192.168.0.7; by=10.41.3.18; by=10.172.238.178
 ```
 
-This blog explains how similar and different the two HTTP headers are. Their MDB web docs can be found at:
+This blog explains how similar and different the two HTTP headers are. Their MDN web docs can be found at:
 
 * [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For)
 * [Forwarded](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded)
