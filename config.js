@@ -24,6 +24,10 @@ module.exports = {
       path: '/project'
     },
     {
+      label: '.Travel()',
+      path: 'https://beeneverywhere.net/user/10247'
+    },
+    {
       label: '.Tags()',
       path: '/tags'
     }
