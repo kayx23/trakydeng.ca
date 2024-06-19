@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Traky Deng',
   subtitle: '',
-  copyright: '© 2023 All Rights Reserved',
+  copyright: '© 2024 All Rights Reserved',
   disqusShortname: '',
   postsPerPage: 5,
   // googleAnalyticsId: 'UA-73379983-2',
@@ -22,6 +22,10 @@ module.exports = {
     {
       label: '.Project()',
       path: '/project'
+    },
+    {
+      label: '.Travel()',
+      path: 'https://beeneverywhere.net/user/10247'
     },
     {
       label: '.Tags()',
